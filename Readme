@@ -1,3 +1,7 @@
 Download RDRS data into the folder "rdrs_downloads"
-Merged shapefile of all basins in the folder "shapefiles"
-Create a textfile named as 'gauged_ids' containing all gauge IDs
+
+Download BasinMaker-generated routing product into the folder "routing"
+
+Edit the script "dynamic_forcing.py" to change the target basin/gauge ID
+
+Run the script and the forcing will be generated in the folder "forcing_csvs"
